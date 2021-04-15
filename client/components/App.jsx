@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react'
+import { Route } from 'react-router-dom'
+
 import {getGreeting} from '../apiClient'
 
 import Instructions from './Instructions'
@@ -24,7 +26,7 @@ const App = () => {
     <>
     <Home />
     <h1>Speed Touch Typing</h1>
-    <Instructions />
+    <Route exact path='/' component={Instructions} />
     
     </>
   )
