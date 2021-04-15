@@ -1,9 +1,12 @@
 import React from 'react'
 
 function Home () {
+    function handleClick(event) {
+        
+    }
     return (
         <>
-        <button>Home</button>
+        <button onClick={handleClick}>Home</button>
         </>
     )
 }
