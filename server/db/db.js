@@ -8,7 +8,7 @@ module.exports = {
 function getQuote (db = connection) {
   return db('quotes')
     .where('id', getRandomQuote(1, 10))
-    .select('id','quote')
+    .select('id','quotes')
     
 }
 
