@@ -3,8 +3,11 @@ import React from 'react'
 function Text () {
     return (
         <>
-        <h1>How To Play!</h1>
+        <h1>Centre This Title</h1>
+        
+        <div>
         <p>
+            Centre these Instructions
             Speed touch type your way into Sandra Bullocks' heart!
         </p>
         <p>
@@ -13,6 +16,7 @@ function Text () {
             and everyone will die.
             If you pass, you win the girl of your dreams!
         </p>
+        </div>
         </>
     )
 }
