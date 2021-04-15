@@ -20,9 +20,9 @@ const App = () => {
 
   return (
     <>
-    {count}
-    <h1>{greeting}</h1>
-    <button onClick={() => setCount(count + 1)}>Click</button>
+    <h1>Speed touch Typing</h1>
+    <Instructions />
+    
     </>
   )
 }
