@@ -2,11 +2,16 @@ import React from 'react'
 
 function Home () {
     function handleClick(event) {
-        
+
     }
     return (
         <>
-        <button onClick={handleClick}>Home</button>
+        <div>
+            <button onClick={handleClick}>Home</button>
+        </div>
+        <div>
+            <h2>Centre me at bottom of page©</h2>
+        </div>
         </>
     )
 }
