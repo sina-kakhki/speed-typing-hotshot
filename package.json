@@ -18,7 +18,8 @@
     "test:watch": "jest --watchAll",
     "webpack": "webpack --config ./client/webpack.config.js",
     "lint": "eslint --ext .js,.jsx .",
-    "tailwind": "tailwindcss build server/public/style.css -o server/public/tailwind.css"
+    "tailwind": "tailwindcss build server/public/style.css -o server/public/tailwind.css",
+    "knex": "knex --knexfile ./server/db/knexfile.js"
   },
   "keywords": [
     "frontend"
@@ -44,6 +45,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.95.4",
+    "sqlite3": "^5.0.2",
     "tailwind": "^4.0.0"
   },
   "devDependencies": {
