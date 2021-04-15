@@ -4,16 +4,21 @@ import React from 'react'
 //import useState hook
 
 function Play() {
-    // useState const 
-    // quote
-
-    // handlechange function 
-
-    //handle submit function
+    function handleClick(e) {
+        e.preventDefault();
+        console.log('the link has been clicked')
+    }
 
     return (
         <>
-   {/* user input function */}
+            <form>
+                <label>
+                    Please Type Here:
+                    <input type="text" name="name"></input>
+                </label>
+                <input type="submit" value="submit"></input>
+            </form>
+            <button onClick={handleClick} type="submit">Submit</button>
         </>
     )
 }
