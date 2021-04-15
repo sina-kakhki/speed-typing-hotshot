@@ -1,9 +1,11 @@
 import React from 'react'
 
+import Text from './Text'
+
 function Instructions() {
     return (
         <>
-        <h1>Instructions</h1>
+        <Text />
         <button>Play</button>
         </>
     )

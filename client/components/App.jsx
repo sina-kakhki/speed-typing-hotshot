@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <>
-    <h1>Speed touch Typing</h1>
+    <h1>Speed Touch Typing</h1>
     <Instructions />
     
     </>
