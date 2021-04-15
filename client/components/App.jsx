@@ -1,6 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import {getGreeting} from '../apiClient'
 
+import Instructions from './Instructions'
+import Play from './Play'
+import Result from './Result'
+
 const App = () => {
 
   const [greeting, setGreeting] = useState('')
