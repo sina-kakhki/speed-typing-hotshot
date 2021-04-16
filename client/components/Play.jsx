@@ -1,19 +1,35 @@
-import React from 'react'
-
-//import api data
-//import useState hook
+import React, { useState, useEffect } from 'react'
+import Result from './Result'
+const dbapi = require('../apiClient')
 
 function Play() {
-    // useState const 
-    // quote
+    const [ result, setResult ] = useState([])
 
-    // handlechange function 
+    useEffect(() => {
+        dbapi.getQuote()
+        .then(res => {
+            setResult(res)
+            return null
+        })
+        .catch(err => console.error(err))
+    }, [])
 
-    //handle submit function
+    function handleClick(e) {
+        e.preventDefault();
+        console.log('the link has been clicked')
+    }
 
     return (
         <>
-   {/* user input function */}
+            <form>
+                <label>
+                    Please Type Here:
+                    <input type="text" name="name"></input>
+                </label>
+                <input type="submit" value="submit"></input>
+            </form>
+
+            <button onClick={handleClick} type="submit">Submit</button>
         </>
     )
 }
