@@ -21,6 +21,9 @@ function Play() {
 
     return (
         <>
+        <p>
+            {result}
+        </p>
             <form>
                 <label>
                     Please Type Here:
@@ -30,6 +33,7 @@ function Play() {
             </form>
 
             <button onClick={handleClick} type="submit">Submit</button>
+            
         </>
     )
 }
