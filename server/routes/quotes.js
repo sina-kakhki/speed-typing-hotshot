@@ -7,8 +7,8 @@ const router = express.Router()
 //routes live here
 router.get('/', (req, res) => {
   db.getQuote()
-      .then((quotes) => {
-          res.json(quotes)
+      .then((result) => {
+          res.json(result.quote)
           return null
       })
       .catch((err) => {
