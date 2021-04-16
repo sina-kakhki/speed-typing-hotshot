@@ -14,6 +14,7 @@ function Instructions() {
         <div className= 'flex flex-col items-center'>
         <Text />
         <button onClick={handleClick}>Play!</button>
+        </div>
         </>
     )
 }
