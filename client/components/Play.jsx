@@ -23,13 +23,13 @@ function Play() {
 
     return (
         <>
-        <p>{result}</p>
-            <form>
+        <p className="text-5xl flex flex-col items-center pb-7">{result}</p>
+            <form className="text-6xl flex flex-col items-center">
                 <label>
                     Please Type Here:
                     <input type="text" name="name"></input>
                 </label>
-                <button>Submit</button>
+                <button className = "m-1 p-3 border-4 bg-black-500 hover:bg-red-700">Submit</button>
             </form>  
         </>
     )
