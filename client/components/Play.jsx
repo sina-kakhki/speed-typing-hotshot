@@ -8,6 +8,7 @@ function Play() {
     useEffect(() => {
         dbapi.getQuote()
         .then(res => {
+            console.log(res)
             setResult(res)
             return null
         })
@@ -21,6 +22,7 @@ function Play() {
 
     return (
         <>
+            <p>{result}</p>
             <form>
                 <label>
                     Please Type Here:
