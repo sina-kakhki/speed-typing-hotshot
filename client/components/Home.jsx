@@ -1,4 +1,6 @@
 import React from 'react'
+import { Route, Link } from 'react-router-dom'
+
 
 function Home () {
     function handleClick(event) {
@@ -6,11 +8,13 @@ function Home () {
     }
     return (
         <>
-        <div>
-            <button onClick={handleClick}>Home</button>
+        <div className="flex items-center">
+          <Link to="/" >
+            <button>Home</button>
+          </Link>
         </div>
         <div className="align-text-bottom">
-            <h2>Centre me at bottom of page©</h2>
+            <h2>Team Speed 2020 ©</h2>
         </div>
         </>
     )

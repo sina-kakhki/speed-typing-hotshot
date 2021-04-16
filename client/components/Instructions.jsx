@@ -1,19 +1,16 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
-
-
+import { Route, Link } from 'react-router-dom'
+import Play from './Play'
 import Text from './Text'
 
 function Instructions() {
-    function handleClick(e) {
-        e.preventDefault();
-        console.log('the link has been clicked')
-    }
     return (
         <>
-        <div className= 'flex flex-col items-center'>
         <Text />
-        <button onClick={handleClick}>Play!</button>
+        <div className="flex items-center">
+          <Link to="/Play" >
+            <button>Play!</button>
+          </Link>
         </div>
         </>
     )
