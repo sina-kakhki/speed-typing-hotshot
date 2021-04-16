@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { Route, Link } from 'react-router-dom'
+
 import Result from './Result'
 const dbapi = require('../apiClient')
 
@@ -29,7 +31,9 @@ function Play() {
                     Please Type Here:
                     <input type="text" name="name"></input>
                 </label>
+                <Link to="/Result" >
                 <button className = "m-1 p-3 border-4 bg-black-500 hover:bg-red-700">Submit</button>
+          </Link>
             </form>  
         </>
     )
