@@ -6,8 +6,7 @@ function Text () {
         <h1>Centre This Title</h1>
         
         <div>
-        <p>
-            Centre these Instructions
+        <p className = 'flex flex-col items-center'>
             Speed touch type your way into Sandra Bullocks' heart!
         </p>
         <p>
