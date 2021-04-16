@@ -9,7 +9,7 @@ function Instructions() {
         <Text />
         <div className="text-6xl flex flex-col items-center">
           <Link to="/Play" >
-            <button>Play!</button>
+            <button className = "m-1 p-3 border-4 bg-black-500 hover:bg-red-700">Play!</button>
           </Link>
         </div>
         </>
