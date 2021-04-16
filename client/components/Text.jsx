@@ -2,9 +2,7 @@ import React from 'react'
 
 function Text () {
     return (
-        <>
-        <h1>Centre This Title</h1>
-        
+        <> 
         <div>
         <p className = 'text-6xl flex flex-col items-center'>
             Speed touch type your way into Sandra Bullocks' heart!
