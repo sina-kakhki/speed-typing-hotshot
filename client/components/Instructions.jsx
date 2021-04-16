@@ -7,7 +7,7 @@ function Instructions() {
     return (
         <>
         <Text />
-        <div className="flex items-center">
+        <div className="text-6xl flex flex-col items-center">
           <Link to="/Play" >
             <button>Play!</button>
           </Link>
