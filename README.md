@@ -1,6 +1,6 @@
 # Speed
 
-Type the displayed quote from the 'Speed' movie in the given time frame or EXPLODE!
+Type the displayed quote from the 'Speed' movie under 20 seconds or EXPLODE!
 
 This is a one day group project that we've done at Dev Academy.
 
