@@ -1,6 +1,6 @@
 # Speed
 
-Type the displayed quote in the given time frame or EXPLODE!
+Type the displayed quote from the 'Speed' movie in the given time frame or EXPLODE!
 
 This is a one day group project that we've done at Dev Academy.
 
@@ -19,7 +19,7 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 
 Home Page
 ------------------------------------
-![MainPage](docs/homePage.PNG)
+![HomePage](docs/homePage.PNG)
 
 Game Page
 ------------------------------------
