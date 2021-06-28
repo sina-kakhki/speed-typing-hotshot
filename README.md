@@ -19,7 +19,7 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 
 Home Page
 ------------------------------------
-![MainPage](docs/hpmePage.PNG)
+![MainPage](docs/homePage.PNG)
 
 Game Page
 ------------------------------------
