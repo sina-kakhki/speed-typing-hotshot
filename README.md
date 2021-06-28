@@ -18,15 +18,15 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 ## User Interface
 
 Home Page
-------------------------------------
+------------------------------------|
 ![HomePage](docs/homePage.PNG)
 
 Game Page
-------------------------------------
+------------------------------------|
 ![GamePage](docs/game.PNG)
 
 Result Page
-------------------------------------
+------------------------------------|
 ![ResultPage](docs/lost.PNG)
 
 ## Tech Stack
