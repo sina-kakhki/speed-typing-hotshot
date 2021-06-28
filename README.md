@@ -31,7 +31,9 @@ Result Page
 
 ## Tech Stack
 **Client:** React, TailwindCSS
+
 **Server:** Node, Express, Knex
+
 **Testing:** Jest
 
 ## Authors
