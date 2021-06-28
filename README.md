@@ -19,15 +19,15 @@ You can find the server running on [http://localhost:3000](http://localhost:3000
 
 Home Page
 ------------------------------------
-![MainPage](docs/hpmePage.png)
+![MainPage](docs/hpmePage.PNG)
 
 Game Page
 ------------------------------------
-![GamePage](docs/game.png)
+![GamePage](docs/game.PNG)
 
 Result Page
 ------------------------------------
-![ResultPage](docs/lost.png)
+![ResultPage](docs/lost.PNG)
 
 ## Tech Stack
 **Client:** React, TailwindCSS
